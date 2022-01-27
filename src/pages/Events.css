@@ -1,0 +1,29 @@
+.filters {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+}
+.events {
+    max-height: calc(100% - 166px);
+    overflow: hidden auto;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .events {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .events {
+        max-height: unset;
+    }
+}
+@media (max-width: 568px) {
+    .events {
+        grid-template-columns: 1fr;
+    }
+}
+

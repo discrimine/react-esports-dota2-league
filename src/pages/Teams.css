@@ -1,0 +1,18 @@
+.teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1rem;
+    width: 100%;
+    max-height: calc(100% - 118px);
+    overflow: hidden auto;
+}
+
+@media (max-width: 768px) {
+    .teams {
+        max-height: unset;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+}

@@ -1,0 +1,27 @@
+.team {
+    width: 280px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.team-logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+.team-data {
+    width: 100%;
+}
+.team-name {
+    white-space: nowrap;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+}
+.team-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
